@@ -9,7 +9,7 @@ body {
 
 /* Заголовок */
 header {
-    background: linear-gradient(45deg, #4A90E2, #50C9C3);
+    background: linear-gradient(45deg, #383838, #353535);
     color: white;
     padding: 60px 0;
     text-align: center;
@@ -36,6 +36,7 @@ header p {
 section.about {
     max-width: 1000px;
     margin: 40px auto;
+    
     padding: 40px;
     background: white;
     border-radius: 8px;

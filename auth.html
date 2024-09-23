@@ -18,11 +18,11 @@
                 document.getElementById('resetPasswordForm').style.display = 'none';
             } else {
                 isRegistering = !isRegistering;
-                document.getElementById('formTitle').innerText = isRegistering ? 'Регистрация' : 'Авторизация';
+                document.getElementById('formTitle').innerText = isRegistering ? 'Регистрация Velex  ' : 'Авторизация Velex  ';
                 document.getElementById('registerFields').style.display = isRegistering ? 'block' : 'none';
                 document.getElementById('loginFields').style.display = isRegistering ? 'none' : 'block';
                 document.getElementById('submitButton').innerText = isRegistering ? 'Зарегистрироваться' : 'Войти';
-                document.getElementById('toggleButton').innerText = isRegistering ? 'Уже зарегистрированы? Войти' : 'Нет учетной записи? Зарегистрироваться';
+                document.getElementById('toggleButton').innerText = isRegistering ? 'Войти' : 'Зарегистрироваться';
             }
         }
 
@@ -126,7 +126,7 @@
             </div>
 
             <div class="toggle-link">
-                <button type="button" id="toggleButton" onclick="toggleForm()">Уже зарегистрированы? Войти</button>
+                <button type="button" id="toggleButton" onclick="toggleForm()">Войти</button>
             </div>
 
             <div class="toggle-link">
